@@ -112,6 +112,8 @@ export default function Product() {
     }
     script.textContent = JSON.stringify(structuredData);
 
+    document.dispatchEvent(new Event("prerender-ready"));
+
     return () => {
       const current = document.getElementById("product-jsonld");
       if (current) {

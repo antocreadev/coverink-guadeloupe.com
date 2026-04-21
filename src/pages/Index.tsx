@@ -52,6 +52,8 @@ const Index = () => {
     ensureMeta("twitter:description", "Transformez vos meubles sans gros travaux. Plus de 500 références disponibles en Guadeloupe.");
     ensureMeta("twitter:image", `${SITE_URL}/hero-john.png`);
     ensureCanonical(`${SITE_URL}/`);
+
+    document.dispatchEvent(new Event("prerender-ready"));
   }, []);
 
   return (
