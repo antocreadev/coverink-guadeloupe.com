@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand: artisan Guadeloupe — vert émeraude, bois caramel, crème naturel */
+    --background: 40 33% 97%;
+    --foreground: 150 20% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 150 20% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 20% 12%;
+
+    --primary: 150 55% 22%;          /* vert émeraude profond */
+    --primary-foreground: 40 33% 97%;
+    --primary-glow: 150 50% 35%;
+
+    --secondary: 28 45% 35%;          /* bois caramel */
+    --secondary-foreground: 40 33% 97%;
+
+    --muted: 40 20% 92%;
+    --muted-foreground: 150 10% 38%;
+
+    --accent: 42 78% 58%;             /* jaune soleil tropical */
+    --accent-foreground: 150 30% 12%;
+
+    --wood: 28 45% 35%;
+    --wood-light: 32 50% 78%;
+    --cream: 40 50% 94%;
+
+    --destructive: 0 75% 50%;
+    --destructive-foreground: 40 33% 97%;
+
+    --border: 40 15% 86%;
+    --input: 40 15% 86%;
+    --ring: 150 55% 22%;
+
+    --radius: 0.75rem;
+
+    --gradient-hero: linear-gradient(135deg, hsl(150 55% 18%) 0%, hsl(150 50% 30%) 100%);
+    --gradient-wood: linear-gradient(135deg, hsl(28 45% 30%) 0%, hsl(28 50% 45%) 100%);
+    --gradient-warm: linear-gradient(180deg, hsl(40 33% 97%) 0%, hsl(40 30% 92%) 100%);
+
+    --shadow-soft: 0 4px 20px -4px hsl(150 30% 15% / 0.1);
+    --shadow-elegant: 0 20px 50px -15px hsl(150 40% 15% / 0.25);
+    --shadow-card: 0 8px 30px -10px hsl(150 30% 15% / 0.15);
+
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-feature-settings: "ss01", "cv11";
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+    @apply tracking-tight;
+  }
+  .font-script {
+    font-family: 'Caveat', cursive;
+  }
+}
+
+@layer components {
+  .container-tight {
+    @apply max-w-6xl mx-auto px-5 sm:px-8;
+  }
+  .badge-local {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider;
+    background: hsl(var(--primary) / 0.1);
+    color: hsl(var(--primary));
+  }
+  .ribbon-wood {
+    background: var(--gradient-wood);
+    color: hsl(var(--cream));
+  }
+}
