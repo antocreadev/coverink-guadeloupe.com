@@ -3,9 +3,17 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 // https://vitejs.dev/config/
-export default defineConfig(() => ({
+export default defineConfig(({ isSsrBuild }) => ({
   build: {
     target: "es2018",
+    ...(isSsrBuild && {
+      rollupOptions: {
+        output: {
+          format: "esm",
+          entryFileNames: "[name].js",
+        },
+      },
+    }),
   },
   server: {
     host: "::",
