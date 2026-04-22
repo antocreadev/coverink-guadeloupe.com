@@ -14,4 +14,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://www.covering-guadeloupe.com/sitemap.xml
+Sitemap: https://www.coverink-guadeloupe.com/sitemap.xml

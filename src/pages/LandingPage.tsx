@@ -13,7 +13,7 @@ import {
 } from "@/lib/landing-pages";
 import NotFound from "./NotFound";
 
-const SITE_URL = "https://www.covering-guadeloupe.com";
+const SITE_URL = "https://www.coverink-guadeloupe.com";
 
 const LandingPage = () => {
   const { slug } = useParams<{ slug: string }>();

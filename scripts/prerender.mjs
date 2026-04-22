@@ -56,7 +56,7 @@ const { render, landingPages = [] } = await import(
 );
 const landingBySlug = new Map(landingPages.map((p) => [p.slug, p]));
 
-const SITE_URL = "https://www.covering-guadeloupe.com";
+const SITE_URL = "https://www.coverink-guadeloupe.com";
 const escapeHtml = (s) =>
   String(s)
     .replace(/&/g, "&amp;")

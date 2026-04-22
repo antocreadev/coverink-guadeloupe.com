@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { getProductById, buildWhatsAppLink } from "@/lib/products";
 import { PayPalButton } from "@/components/site/PayPalButton";
 
-const SITE_URL = "https://www.covering-guadeloupe.com";
+const SITE_URL = "https://www.coverink-guadeloupe.com";
 
 export default function Product() {
   const { id } = useParams<{ id: string }>();

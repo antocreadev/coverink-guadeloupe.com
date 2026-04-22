@@ -9,7 +9,7 @@ import { ContactCTA } from "@/components/site/ContactCTA";
 import { Footer } from "@/components/site/Footer";
 import { useEffect } from "react";
 
-const SITE_URL = "https://www.covering-guadeloupe.com";
+const SITE_URL = "https://www.coverink-guadeloupe.com";
 
 const Index = () => {
   useEffect(() => {
