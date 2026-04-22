@@ -1,8 +1,9 @@
-import { products, buildWhatsAppLink } from "@/lib/products";
+import { products } from "@/lib/products";
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Star, Eye } from "lucide-react";
+import { Star, Eye } from "lucide-react";
 import samples from "@/assets/covering-samples.jpg";
 import { Link } from "react-router-dom";
+import { PayPalButton } from "@/components/site/PayPalButton";
 
 export const Shop = () => (
   <section id="boutique" className="py-20 lg:py-28 bg-gradient-warm">
@@ -44,16 +45,18 @@ export const Shop = () => (
                 <span className="text-2xl font-semibold text-primary">{p.price}€</span>
                 <span className="text-xs text-muted-foreground">{p.unit}</span>
               </div>
-              <div className="flex gap-2 mt-3">
-                <Button asChild size="sm" variant="outline" className="flex-1">
+              <div className="mt-3 space-y-2">
+                <PayPalButton
+                  productId={p.id}
+                  productName={p.name}
+                  amount={p.price}
+                  description={`${p.name}${p.unit ?? ""}`}
+                  paypalOnly
+                />
+                <Button asChild size="lg" variant="outline" className="w-full">
                   <Link to={`/produit/${p.id}`}>
-                    <Eye className="w-3.5 h-3.5 mr-1" /> Voir
+                    <Eye className="w-4 h-4 mr-2" /> Voir le produit
                   </Link>
-                </Button>
-                <Button asChild size="sm" className="flex-1 bg-primary hover:bg-primary-glow text-primary-foreground">
-                  <a href={buildWhatsAppLink(`Bonjour John, je souhaite commander : ${p.name} (${p.price}€${p.unit}). Pouvez-vous me confirmer la disponibilité ?`)}>
-                    <MessageCircle className="w-3.5 h-3.5 mr-1" /> Commander
-                  </a>
                 </Button>
               </div>
             </div>

@@ -2,38 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.covering-guadeloupe.com/</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://www.covering-guadeloupe.com/produit/bois</loc>
-    <lastmod>2026-04-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.covering-guadeloupe.com/produit/marbre</loc>
-    <lastmod>2026-04-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.covering-guadeloupe.com/produit/beton</loc>
-    <lastmod>2026-04-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.covering-guadeloupe.com/produit/cuir</loc>
-    <lastmod>2026-04-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.covering-guadeloupe.com/produit/metal</loc>
-    <lastmod>2026-04-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.covering-guadeloupe.com/produit/paillettes</loc>
-    <lastmod>2026-04-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.covering-guadeloupe.com/produit/uni</loc>
-    <lastmod>2026-04-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.covering-guadeloupe.com/produit/textile</loc>
-    <lastmod>2026-04-20</lastmod>
-  </url>
+
+  <!-- Produits -->
+  <url><loc>https://www.covering-guadeloupe.com/produit/bois</loc><lastmod>2026-04-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/produit/marbre</loc><lastmod>2026-04-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/produit/beton</loc><lastmod>2026-04-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/produit/cuir</loc><lastmod>2026-04-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/produit/metal</loc><lastmod>2026-04-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/produit/paillettes</loc><lastmod>2026-04-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/produit/uni</loc><lastmod>2026-04-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/produit/textile</loc><lastmod>2026-04-22</lastmod><priority>0.8</priority></url>
+
+  <!-- Pages locales (SEO villes Guadeloupe) -->
+  <url><loc>https://www.covering-guadeloupe.com/covering-pointe-a-pitre</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-les-abymes</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-baie-mahault</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-le-gosier</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-sainte-anne</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-saint-francois</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-le-moule</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-petit-bourg</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-lamentin</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-basse-terre</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-capesterre-belle-eau</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-sainte-rose</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-morne-a-l-eau</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-petit-canal</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-port-louis</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/covering-marie-galante</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Pages services & guides (SEO pour personnes qui ne connaissent pas le covering) -->
+  <url><loc>https://www.covering-guadeloupe.com/renovation-meubles-sans-travaux</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/renovation-cuisine-guadeloupe</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/relooker-meubles-vinyle-adhesif</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/qu-est-ce-que-le-covering</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.covering-guadeloupe.com/alternative-peinture-meubles</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

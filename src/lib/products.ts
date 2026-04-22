@@ -49,7 +49,7 @@ import uniImg2 from "@/assets/couleur/scans/image copy.png";
 import uniImg3 from "@/assets/couleur/scans/image copy 2.png";
 import uniImg4 from "@/assets/couleur/scans/image copy 3.png";
 import uniImg5 from "@/assets/couleur/scans/image copy 4.png";
-import uniImg6 from "@/assets/couleur/scans/image copy 5.png";
+import uniImg6 from "@/assets/couleur/scans/imag.png";
 import uniImg7 from "@/assets/couleur/scans/image copy 6.png";
 
 // Textile

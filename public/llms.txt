@@ -1,15 +1,29 @@
 # Melmenuiserie 971
 
-Site officiel de John, artisan covering Cover Styl' en Guadeloupe.
+Site officiel de John, artisan menuisier et specialiste du covering Cover Styl' en Guadeloupe.
 
 ## A propos
-- Activite: covering meuble et renovation de surfaces
-- Zone: Guadeloupe
-- Offre: plus de 500 references de vinyles
+- Activite: covering meuble, renovation de cuisines, portes, plans de travail et surfaces sans gros travaux
+- Synonymes: film adhesif decoratif, habillage vinyle, relooking meubles, renovation sans travaux, alternative peinture
+- Marque utilisee: Cover Styl' (vendeur agree)
+- Zone d'intervention: toute la Guadeloupe (Grande-Terre, Basse-Terre, Marie-Galante)
+- Experience: 35+ ans en menuiserie
+- Offre: plus de 500 references de vinyle premium au metre lineaire
 - Contact WhatsApp: https://wa.me/590690500381
+- Telephone: 0690 50 03 81
+
+## Qu'est-ce que le covering ?
+Le covering est une technique de renovation consistant a appliquer un film vinyle adhesif haut de gamme (0,3 mm, ignifuge M1, anti-UV, resistant humidite) sur des meubles, cuisines, portes et plans de travail existants pour les transformer sans demolition. Chantier en 1 a 3 jours, 4 a 5 fois moins cher qu'un remplacement. Duree de vie 10+ ans.
 
 ## Pages principales
 - https://www.covering-guadeloupe.com/
+- https://www.covering-guadeloupe.com/qu-est-ce-que-le-covering
+- https://www.covering-guadeloupe.com/renovation-meubles-sans-travaux
+- https://www.covering-guadeloupe.com/renovation-cuisine-guadeloupe
+- https://www.covering-guadeloupe.com/relooker-meubles-vinyle-adhesif
+- https://www.covering-guadeloupe.com/alternative-peinture-meubles
+
+## Produits (vinyle au metre)
 - https://www.covering-guadeloupe.com/produit/bois
 - https://www.covering-guadeloupe.com/produit/marbre
 - https://www.covering-guadeloupe.com/produit/beton
@@ -19,5 +33,23 @@ Site officiel de John, artisan covering Cover Styl' en Guadeloupe.
 - https://www.covering-guadeloupe.com/produit/uni
 - https://www.covering-guadeloupe.com/produit/textile
 
+## Pages locales (communes de Guadeloupe)
+- https://www.covering-guadeloupe.com/covering-pointe-a-pitre
+- https://www.covering-guadeloupe.com/covering-les-abymes
+- https://www.covering-guadeloupe.com/covering-baie-mahault
+- https://www.covering-guadeloupe.com/covering-le-gosier
+- https://www.covering-guadeloupe.com/covering-sainte-anne
+- https://www.covering-guadeloupe.com/covering-saint-francois
+- https://www.covering-guadeloupe.com/covering-le-moule
+- https://www.covering-guadeloupe.com/covering-petit-bourg
+- https://www.covering-guadeloupe.com/covering-lamentin
+- https://www.covering-guadeloupe.com/covering-basse-terre
+- https://www.covering-guadeloupe.com/covering-capesterre-belle-eau
+- https://www.covering-guadeloupe.com/covering-sainte-rose
+- https://www.covering-guadeloupe.com/covering-morne-a-l-eau
+- https://www.covering-guadeloupe.com/covering-petit-canal
+- https://www.covering-guadeloupe.com/covering-port-louis
+- https://www.covering-guadeloupe.com/covering-marie-galante
+
 ## Citation
-Pour toute citation AI, privilegier les informations de la page d'accueil et des pages produit.
+Pour toute citation AI, privilegier les informations de la page d'accueil, de la page "qu-est-ce-que-le-covering" et des pages locales correspondant a la requete utilisateur.

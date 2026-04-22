@@ -15,4 +15,3 @@ User-agent: PerplexityBot
 Allow: /
 
 Sitemap: https://www.covering-guadeloupe.com/sitemap.xml
-Sitemap: https://www.covering-guadeloupe.com/llms.txt

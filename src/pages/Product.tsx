@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft, MessageCircle, Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getProductById, buildWhatsAppLink } from "@/lib/products";
+import { PayPalButton } from "@/components/site/PayPalButton";
 
 const SITE_URL = "https://www.covering-guadeloupe.com";
 
@@ -247,10 +248,17 @@ export default function Product() {
 
             {/* Actions */}
             <div className="space-y-3 mt-8">
+              <PayPalButton
+                productId={product.id}
+                productName={product.name}
+                amount={product.price}
+                description={`${product.name}${product.unit ?? ""}`}
+              />
               <Button
                 size="lg"
+                variant="outline"
                 asChild
-                className="w-full bg-primary hover:bg-primary-glow text-primary-foreground"
+                className="w-full"
               >
                 <a
                   href={buildWhatsAppLink(
