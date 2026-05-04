@@ -10,21 +10,27 @@ import LandingPage from "./pages/LandingPage.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import OrderSuccess from "./pages/OrderSuccess.tsx";
 import AdminOrders from "./pages/AdminOrders.tsx";
+import AdminAnalytics from "./pages/AdminAnalytics.tsx";
+import AdminHome from "./pages/AdminHome.tsx";
 import ScrollToTop from "./components/ScrollToTop.tsx";
+import AnalyticsTracker from "./components/AnalyticsTracker.tsx";
 
 const queryClient = new QueryClient();
 
 const AppRoutes = () => (
   <>
     <ScrollToTop />
-  <Routes>
-    <Route path="/" element={<Index />} />
-    <Route path="/produit/:id" element={<Product />} />
-    <Route path="/commande/:id" element={<OrderSuccess />} />
-    <Route path="/admin/commandes" element={<AdminOrders />} />
-    <Route path="/:slug" element={<LandingPage />} />
-    <Route path="*" element={<NotFound />} />
-  </Routes>
+    <AnalyticsTracker />
+    <Routes>
+      <Route path="/" element={<Index />} />
+      <Route path="/produit/:id" element={<Product />} />
+      <Route path="/commande/:id" element={<OrderSuccess />} />
+      <Route path="/admin" element={<AdminHome />} />
+      <Route path="/admin/commandes" element={<AdminOrders />} />
+      <Route path="/admin/analytics" element={<AdminAnalytics />} />
+      <Route path="/:slug" element={<LandingPage />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   </>
 );
 

@@ -254,12 +254,7 @@ export default function Product() {
                 amount={product.price}
                 description={`${product.name}${product.unit ?? ""}`}
               />
-              <Button
-                size="lg"
-                variant="outline"
-                asChild
-                className="w-full"
-              >
+              <Button size="lg" variant="outline" asChild className="w-full">
                 <a
                   href={buildWhatsAppLink(
                     `Bonjour John, je souhaite commander : ${product.name} (${product.price}€${product.unit}). Pouvez-vous me confirmer la disponibilité et le délai ?`,

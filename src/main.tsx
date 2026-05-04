@@ -5,9 +5,9 @@ import "./index.css";
 const rootElement = document.getElementById("root");
 
 if (rootElement) {
-	if (rootElement.hasChildNodes()) {
-		hydrateRoot(rootElement, <App />);
-	} else {
-		createRoot(rootElement).render(<App />);
-	}
+  if (rootElement.hasChildNodes()) {
+    hydrateRoot(rootElement, <App />);
+  } else {
+    createRoot(rootElement).render(<App />);
+  }
 }
