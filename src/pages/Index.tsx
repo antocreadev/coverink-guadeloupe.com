@@ -7,6 +7,7 @@ import { Shop } from "@/components/site/Shop";
 import { About } from "@/components/site/About";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { Footer } from "@/components/site/Footer";
+import { SimulateurPopup } from "@/components/site/Simulateur";
 import { useEffect } from "react";
 
 const SITE_URL = "https://www.coverink-guadeloupe.com";
@@ -69,6 +70,7 @@ const Index = () => {
         <ContactCTA />
       </main>
       <Footer />
+      <SimulateurPopup />
     </div>
   );
 };

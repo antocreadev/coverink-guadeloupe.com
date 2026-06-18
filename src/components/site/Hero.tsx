@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight, Calculator, Sparkles } from "lucide-react";
 import heroImg from "@/assets/hero-john.png";
 import { buildWhatsAppLink } from "@/lib/products";
+import { SimulateurDialog } from "@/components/site/Simulateur";
 
 export const Hero = () => (
   <section id="top" className="relative overflow-hidden bg-gradient-warm">
@@ -23,6 +24,14 @@ export const Hero = () => (
           commerce — rapide, propre, économique.
         </p>
         <div className="flex flex-wrap gap-3">
+          <SimulateurDialog>
+            <Button
+              size="lg"
+              className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-elegant font-semibold"
+            >
+              <Calculator className="mr-1.5 w-4 h-4" /> Simuler mon projet
+            </Button>
+          </SimulateurDialog>
           <Button
             size="lg"
             asChild
